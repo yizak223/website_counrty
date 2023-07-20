@@ -1,0 +1,33 @@
+footer{
+    color: rgba(255, 255, 255, 0.724);
+    background-color: black;
+    bottom: 0;
+    position: fixed;
+    width:100%;
+    text-align: center;
+    margin: 0%;
+    padding: 0;
+}
+nav, h1, img{
+    margin: 0;
+}
+header h1{
+    color: aqua;
+    text-align: left;
+}
+header img{
+    width: 100px;
+    float: right;
+    margin: 0px,0px;
+}
+h2{
+    text-align: center;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+
+
