@@ -27,6 +27,7 @@ table{
 }
 .ruler{
     border-radius: 3px color rgb(5, 5, 5);
+    font-size: 30px;
 }
 /* the style header */
 header h1{
@@ -92,6 +93,9 @@ nav a.act::before {
     border: 2px solid #3c00ff; /* Adjust the border color and thickness as desired */
     border-radius: 10px; /* Adjust the border radius as desired */
     margin: 3px;
+}
+.put{
+    font-size: 30px;
 }
 a :hover
   {
