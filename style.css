@@ -8,9 +8,11 @@ footer{
     text-align: center;
     margin: 0%;
     padding: 0;
+    left: 0;
+    right: 0;
 }
 body{ 
-    background-image: url("https://meyda.education.gov.il/files/pop/1732/independence.jpg");
+    background-image: url("");
 }
 /* to make the ruler and the flaf be without space */
 nav, h1, img{
@@ -18,9 +20,9 @@ nav, h1, img{
 }
 table{
     background-color: white;
-    text-align: center;
+    
     display: table;
-    margin: 0 auto;
+    
 }
 .ruler{
     border-radius: 3px color rgb(5, 5, 5);
