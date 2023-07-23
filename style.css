@@ -78,6 +78,11 @@ li{
     content: " *";
     color: #dc1b1b;
     }
+.select{
+    display: grid;
+    float:right;
+    margin-right: 1000px;
+}
 nav a.act{   
         font-weight: bold;
         padding: 5px 10px;

@@ -20,6 +20,14 @@
             <article >
             
              <form class="put" action="details"><p>Leave your details here and you may receive a viza </p>
+                <div class="select">
+                    <label for="reason">reason for visit</label>
+                    <select name="reason " id="reason">
+                        <option value="vacation">vacation</option>
+                        <option value="business">business</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
                 <label class="required" for="fname"> Full name</label><br>
                 <input type="text" id="fname" name="fname" placeholder="full name" required> <br> <br>
                 <label class="required" for="phone"> Phone</label><br>
@@ -33,7 +41,7 @@
                 <button style="color: rgb(0, 0, 0);">Send</button>
                 <input type="reset" placeholder="reset" value="Reset" name="reset" id="reset">
             </form>
-        
+       
         </article>
         <footer style=" display: block;position:absolute; bottom: unset; bottom: auto; margin-bottom: 0; ">
             <p>if you like my website let's be in touch <i class="fa fa-phone" aria-hidden="true"></i>
