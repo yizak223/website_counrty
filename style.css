@@ -27,6 +27,7 @@ table{
 .ruler{
     border-radius: 3px color rgb(5, 5, 5);
     font-size: 30px;
+    text-align: center;
 }
 /* the style header */
 header h1{
@@ -82,15 +83,22 @@ nav a.act{
         padding: 5px 10px;
         position: relative;
 }
+nav .act:hover{
+    
+    
+    background-color:  #19a5ecb5;
+    
+   
+}
 nav a.act::before {
     content: "";
     position: absolute;
-    top: -2px;
+    top: 0px;
     left: -2px;
     right: -2px;
-    bottom: -2px;
-    border: 2px solid #3c00ff; /* Adjust the border color and thickness as desired */
-    border-radius: 10px; /* Adjust the border radius as desired */
+    bottom: 1px;
+    border: 5px solid #070607; /* Adjust the border color and thickness as desired */
+    border-radius: 5px; /* Adjust the border radius as desired */
     margin: 3px;
 }
 .put{
@@ -102,8 +110,10 @@ a :hover
   }
 nav :hover
 {
-    background-color:  #0765f3b5;
+    background-color:  #669deeb5;
+    
 }
+
 nav a{
-    color: black;
+    color: rgb(12, 69, 241);
 }
