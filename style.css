@@ -71,7 +71,7 @@ p{
     font-weight: bolder;
 }
 li{
-    text-align: center;
+    
 }
 
 .required::after { 
